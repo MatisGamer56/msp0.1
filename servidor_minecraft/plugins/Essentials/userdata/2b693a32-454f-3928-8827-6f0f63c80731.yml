@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 100.86.124.15
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1768405783561
+  login: 1768405787269
+money: '0'
+last-account-name: RedTheKnife34
+logoutlocation:
+  world: 221f30a7-82c8-43de-9991-b9129cfb8ad0
+  world-name: world
+  x: -6.845735597066112
+  y: 79.0
+  z: -1.5330707205537963
+  yaw: -149.7561798095703
+  pitch: 25.263656616210938
