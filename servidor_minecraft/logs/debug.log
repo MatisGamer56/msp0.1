@@ -1,0 +1,5 @@
+[22Jan2026 22:01:11.537] [main/INFO] [FabricLoader/GameProvider/]: Loading Minecraft 1.21.1 Arclight arclight-1.21.1-1.0.1-8ec9529 with Fabric Loader 0.16.14
+mainEx[22Jan2026 22:01:11.607] [JLine Shutdown Hook/DEBUG] [org.jline/]: Running all shutdown-hook tasks
+JLine Shutdown HookEx[22Jan2026 22:01:11.607] [JLine Shutdown Hook/DEBUG] [org.jline/]: Running task: org.jline.terminal.impl.PosixSysTerminal$$Lambda/0x00007015bc199970@49e7730b
+JLine Shutdown HookEx[22Jan2026 22:01:11.609] [JLine Shutdown Hook/DEBUG] [org.jline/]: Removing shutdown-hook: Thread[#22,JLine Shutdown Hook,5,main]
+JLine Shutdown HookEx

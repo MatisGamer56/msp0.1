@@ -1,0 +1,64 @@
+# ===========================================
+#           FlyPlugin Configuration
+# ===========================================
+
+# General Settings
+settings:
+  # Plugin prefix for all messages
+  prefix: "&8[&6FlyPlugin&8] "
+  
+  # Enable/disable prefix in messages
+  use_prefix: true
+  
+  # Console logging
+  log_commands: true
+  log_permission_denied: false
+
+# Custom Messages (supports color codes with &)
+# Available placeholders:
+# {player} - Target player name
+# {sender} - Command sender name
+# {prefix} - Plugin prefix
+messages:
+  # Self fly messages
+  fly_enabled_self: "&aFlight mode enabled!"
+  fly_disabled_self: "&cFlight mode disabled!"
+  
+  # Other player fly messages
+  fly_enabled_other_target: "&aYour flight mode has been enabled by &e{sender}&a!"
+  fly_disabled_other_target: "&cYour flight mode has been disabled by &e{sender}&c!"
+  fly_enabled_other_sender: "&aFlight mode enabled for &e{player}&a!"
+  fly_disabled_other_sender: "&cFlight mode disabled for &e{player}&c!"
+  
+  # Error messages
+  no_permission_self: "&cYou don't have permission to use this command!"
+  no_permission_other: "&cYou don't have permission to change other players' flight mode!"
+  player_not_found: "&cPlayer '&e{player}&c' is not online!"
+  player_only_command: "&cThis command can only be executed by players when used without arguments!"
+  
+  # Usage messages
+  usage_fly: "&eUsage: /fly [Player] [speed <1-10>]"
+  
+  # Speed messages
+  speed_changed_self: "&aFlight speed set to &e{speed}&a!"
+  speed_changed_other_target: "&aYour flight speed has been set to &e{speed}&a by &e{sender}&a!"
+  speed_changed_other_sender: "&aFlight speed for &e{player}&a set to &e{speed}&a!"
+  invalid_speed: "&cInvalid speed! Please use a number between 1-10."
+  no_permission_speed: "&cYou don't have permission to change flight speed!"
+  
+  # Plugin messages
+  plugin_enabled: "&aFlyPlugin has been successfully loaded!"
+  plugin_disabled: "&cFlyPlugin has been disabled!"
+  config_reloaded: "&aConfiguration reloaded successfully!"
+
+# Color Codes Reference:
+# &0 = Black     &8 = Dark Gray
+# &1 = Dark Blue &9 = Blue  
+# &2 = Dark Green &a = Green
+# &3 = Dark Aqua  &b = Aqua
+# &4 = Dark Red   &c = Red
+# &5 = Dark Purple &d = Light Purple
+# &6 = Gold       &e = Yellow
+# &7 = Gray       &f = White
+# &l = Bold       &n = Underline
+# &o = Italic     &r = Reset
